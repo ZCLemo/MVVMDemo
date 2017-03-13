@@ -99,4 +99,12 @@
     return 80.0f;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    ProductModel *product = self.productList[indexPath.row];
+    if (self.toProductDetailBlock) {
+        self.toProductDetailBlock(product);
+    }
+}
+
 @end

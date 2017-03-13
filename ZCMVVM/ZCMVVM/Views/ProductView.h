@@ -9,9 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @class ProductViewModel;
+@class ProductModel;
+
+typedef void(^ ToProductDetailBlock)(ProductModel *product);
 
 @interface ProductView : UIView
 
 - (id)initWithViewModel:(ProductViewModel *)viewModel;
+
+@property (nonatomic,copy) ToProductDetailBlock toProductDetailBlock;
 
 @end

@@ -9,6 +9,8 @@
 #import "ProductViewController.h"
 #import "ProductView.h"
 #import "ProductViewModel.h"
+#import "ProductDetailViewController.h"
+
 
 @interface ProductViewController ()
 
@@ -36,6 +38,13 @@
     if (!_rootView) {
         _rootView = [[ProductView alloc] initWithViewModel:self.viewModel];
         _rootView.backgroundColor = [UIColor whiteColor];
+        @weakify(self)
+        _rootView.toProductDetailBlock = ^(ProductModel *product){
+            @strongify(self)
+            ProductDetailViewController *vc = [[ProductDetailViewController alloc] init];
+            vc.product = product;
+            [self.navigationController pushViewController:vc animated:YES];
+        };
     }
     return _rootView;
 }

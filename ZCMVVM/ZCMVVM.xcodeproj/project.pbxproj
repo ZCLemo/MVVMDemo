@@ -27,6 +27,7 @@
 		B98F60171E7647A900716723 /* product.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B98F60161E7647A800716723 /* product.jpg */; };
 		B98F601A1E764BF000716723 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F60191E764BF000716723 /* ProductModel.m */; };
 		B98F601D1E764FDE00716723 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F601C1E764FDE00716723 /* UIView+ViewController.m */; };
+		B98F60201E7672AC00716723 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98F601F1E7672AC00716723 /* ProductDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		B98F60191E764BF000716723 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
 		B98F601B1E764FDE00716723 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
 		B98F601C1E764FDE00716723 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
+		B98F601E1E7672AC00716723 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		B98F601F1E7672AC00716723 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +211,8 @@
 				B909E88E1E71324F00EDD415 /* LoginViewController.m */,
 				B987F4271E72AC7200F6EE2B /* ProductViewController.h */,
 				B987F4281E72AC7200F6EE2B /* ProductViewController.m */,
+				B98F601E1E7672AC00716723 /* ProductDetailViewController.h */,
+				B98F601F1E7672AC00716723 /* ProductDetailViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -448,6 +453,7 @@
 				B98F601A1E764BF000716723 /* ProductModel.m in Sources */,
 				B98F60151E76469000716723 /* ProductCell.m in Sources */,
 				B909E8951E7132A700EDD415 /* LoginViewModel.m in Sources */,
+				B98F60201E7672AC00716723 /* ProductDetailViewController.m in Sources */,
 				B909E88F1E71324F00EDD415 /* LoginViewController.m in Sources */,
 				B909E8981E7132C000EDD415 /* LoginModel.m in Sources */,
 			);
