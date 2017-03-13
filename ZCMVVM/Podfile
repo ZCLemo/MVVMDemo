@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+target 'ZCMVVM' do
+
+#RAC
+pod 'ReactiveCocoa','=2.5'
+
+#Auto Layout
+pod 'Masonry', '=1.0.2'
+
+# 等待框
+pod 'MBProgressHUD', '=1.0.0'
+
+end
